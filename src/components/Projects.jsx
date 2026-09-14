@@ -1,27 +1,29 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import food_web from "../assets/food.png"
+import assigment from "../assets/assigment.png"
+import ml_image from "../assets/figure_3.png"
 const projects = [
     {
-        name: "ML Classification",
+        name: "Introduction Project",
         description: "Frontend Project: binary classification & regression",
-        link: "",
-        image: "/images/ml_classification.png",
+        link: "https://assigmentweb.vercel.app/",
+        image: assigment,
         tech: ["Maps", "React", "Frontend Development"],
     },
     {
-        name: "Doctor-Patient Web App",
+        name: "Food Delivery Website",
         description: "Full-stack app connecting doctors & patients",
-        link: "https://assigmentweb.vercel.app/",
-        image: "/images/doctor_patient.png",
-        tech: ["Node.js", "Express", "MongoDB", "React"],
+        link: "https://food-delivery-frontend-delta-two.vercel.app/",
+        image: food_web,
+        tech: ["Node.js", "Express", "MongoDB", "React", "Typescript"],
     },
     {
-        name: "Full-Stack Food eCommerce",
+        name: "Machine learning Model",
         description: "Food delivery website with authentication & payments",
         link: "https://github.com/Haji-Suleman/Food-Delivery",
-        image: "/images/food_delivery.png",
-        tech: ["Node.js", "MongoDB", "Express", "Bootstrap"],
+        image: ml_image,
+        tech: ["Machine Learning", "Climate-model"],
     },
 ];
 
