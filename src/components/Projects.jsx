@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 const projects = [
     {
         name: "ML Classification",
-        description: "PyTorch project: binary classification & regression",
-        link: "https://github.com/Haji-Suleman/Pytorch",
+        description: "Frontend Project: binary classification & regression",
+        link: "",
         image: "/images/ml_classification.png",
-        tech: ["Python", "PyTorch", "Machine Learning"],
+        tech: ["Maps", "React", "Frontend Development"],
     },
     {
         name: "Doctor-Patient Web App",
         description: "Full-stack app connecting doctors & patients",
-        link: "https://github.com/Haji-Suleman/Medical-and-Patient",
+        link: "https://assigmentweb.vercel.app/",
         image: "/images/doctor_patient.png",
         tech: ["Node.js", "Express", "MongoDB", "React"],
     },
