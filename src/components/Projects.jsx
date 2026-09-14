@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import food_web from "../assets/food.png"
 import assigment from "../assets/assigment.png"
-import ml_image from "../assets/figure_3.png"
-const projects = [ 
+import ml_image from "../assets/Figure_3.png"
+const projects = [
     {
         name: "Introduction Project",
         description: "Frontend Project: binary classification & regression",
